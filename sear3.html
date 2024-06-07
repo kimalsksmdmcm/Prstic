@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./search.css">
+</head>
+<body>
+    <section class="section1">
+        <div class="top">
+            <div class="t2">
+                <div class="logo"><img src="./logo/logo.png" alt=""></div>
+                <div class="no"></div>
+                <div class="nextPage">
+                    <div class="buttonI"><a href="home.html#section1"><button>Home</button></div></a>
+                    <div class="buttonI"><a href="home.html#section2"><button>About</button></div></a>
+                    <div class="buttonI"><a href="home.html#section3"><button>More</button></a></div>
+                    <div class="buttonI"><button>Member</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="item-T1">
+                <div class="info" style="width: 350px; height: 200px; border: 1px, solid, black">
+                    <a href="https://coffeebak.kr/explanation/" class="link-word"><h5>커피박</h5></a> 
+                    <div>
+                        <p>커피박은 커피원두로부터 커피액을 추출하고 남은 찌꺼기를 말하는데 커피박에는 
+                            유기물뿐만 아니라  다양한 기능성 물질을 다량 함유되어 있어 재활용 
+                            가치가 높은 유기성 자원 중의 하나로 평가 받고 있다.</p>
+                    </div>
+
+                    <a href="https://www.nongsaro.go.kr/portal/ps/psz/psza/contentSub.ps?menuId=PS04185&cntntsNo=207258&totalSearchYn=Y" class="link-word2"><h6>자세히</h6></a>
+                </div>
+
+            </div>
+            <div class="item-Main">
+                <section class="item1">
+                    <div class="img">
+                        <a href="https://coffeeclay.com/goods/view?no=446">
+                            <img class="it_img" src="./logo/커피캔들.jpg" alt="">
+
+                        </a>
+                    </div>
+                </section>
+                <section class="item1">
+                    <div class="img">
+                        <a href="https://coffeeclay.com/goods/view?no=51"><img class="it_img" src="./logo/커피벽돌.jpg" alt=""></a>
+                    </div>
+                </section>
+                <section class="item1">
+                    <div class="img">
+                        <a href="https://coffeeclay.com/goods/view?no=492"> <img class="it_img" src="./logo/커피화분.jpg" alt=""></a>
+                    </div>
+                </section>
+                <section class="item1">
+                    <div class="img">
+                        <a href="https://www.intermarket.co.kr/src/product_detail.php?gdno=21132&gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvSK4OnJqhCrIPf_05EI1V-Ae4K4o0Bfi09id2Of1juLqSGRLh2SZiRoCYwAQAvD_BwE">
+                            <img class="it_img" src="https://www.intermarket.co.kr/data/goods/63c69bfe2c110.jpg" alt="">
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <div class="item-T2">
+                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=171ccc7c8baa0b1262bf6eb507d44aea"></script>
+
+                <div id="map" style="width: 400px; height: 400px; border: 1px, solid, black"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="main">
+
+
+            <div class="i1">
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uc2XDanaCXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="i1">
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dz9xBK7G1oc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="i1">
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2QsmY49_55E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="i1">
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Bwvsn6v0PX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="i1">
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1HE6jUgNc-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="i1">
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mpUPRGPmLfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    </section>
+
+    <script>
+ 
+    function initMap() {
+        let container = document.getElementById('map');
+        let options = {
+            center: new kakao.maps.LatLng(35.145755697556346, 129.00764076030774),
+            level: 3
+        };
+
+    let map = new kakao.maps.Map(container, options);
+    return map;
+}
+
+
+function addCafeMarkers(map) {
+  // 카페 위치 정보 배열
+    let cafes = [
+    { name: '월든', lat: 35.14715112525259, lng: 129.0065010705561 },
+    { name: '냉정커피', lat: 35.14660745655553, lng: 129.00939794842412 },
+    { name: '카페란', lat: 35.14672774104298, lng: 129.008665805437 },
+    { name: '더벤티 동서대점', lat: 35.14659617445637, lng: 129.00749683481186 },
+    { name: 'EDIYA COFFEE', lat: 35.14584640262104, lng: 129.00828482369408 },
+    { name: '이띠', lat: 35.14696390686958, lng: 129.01099760766382 },
+    { name: '감성커피', lat: 35.147098754451825, lng: 129.0110173838247 },
+    { name: '컴포즈커피', lat: 35.14991500539587, lng: 129.00394386983717 },
+    { name: '투썸플레이스', lat: 35.150415083199015, lng: 129.00544560569236 },
+    { name: '메가커피', lat: 35.14999919315585, lng: 129.00729516860474 },
+    { name: '스타벅스', lat: 35.15076082888637, lng: 129.00986765925583 },
+    { name: '메가커피', lat: 35.15095072826213, lng: 129.01186378818727 },
+    { name: '컴포즈커피', lat: 35.150493891139284, lng: 129.01278242896655 },
+    { name: '투썸플레이스', lat: 35.149670756050156, lng: 129.01242476108558 },
+    { name: '더리터', lat: 35.14940048907747, lng: 129.01255525452677 },
+    { name: '더 빈스트 커피', lat: 35.14941582104504, lng: 129.01339499064565  },
+    { name: '더 벤티', lat: 35.14846396572819, lng: 129.01278454046485  },
+    { name: '투썸플렝니스', lat: 35.14882403301766, lng: 129.01294427417474},
+    { name: '해피샌데이', lat: 35.14823234970815, lng: 129.01167342127297},
+    { name: '굿투시유', lat: 35.147545503624734, lng: 129.0130115236726},
+    { name: '일점오커피', lat: 35.14742703210273, lng: 129.01309089314938},
+    { name: '글로벌빌리지카페', lat: 35.14610953155433, lng: 129.00736144948416},
+    { name: '카페반미콩', lat: 35.1488351935316, lng: 129.0005764271843 },
+
+    
+  ];
+
+    cafes.forEach(function(cafe) {
+        let marker = new kakao.maps.Marker({
+            position: new kakao.maps.LatLng(cafe.lat, cafe.lng),
+            map: map,
+            title: cafe.name
+        });
+
+    });
+}
+
+
+
+let map = initMap();
+addCafeMarkers(map);
+    </script>
+</body>
+</html>
