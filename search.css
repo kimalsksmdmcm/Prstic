@@ -1,0 +1,257 @@
+html,body {
+    padding: 0;
+    margin: 0;
+}
+.section1 {
+   /* background-color: rgb(135, 160, 183);*/
+    height: 100vh;
+}
+.top {
+    height:8%;
+    width: 100%;
+    /* border: #333 solid 1px; */
+    display: flex;
+    /* background-color: #f7f4eb; */
+    flex-direction: column;
+    justify-content: center;
+    /*position: fixed;*/
+    top: 0;
+    background-color:white;
+    
+} 
+
+.t2{
+    /*border: #333 solid 1px;*/
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.logo  img{
+    height: 18vh;
+}
+
+.no {
+    /*border: #333 solid 1px;*/
+    display: flex;
+    flex-grow: 0.7;
+
+}
+.nextPage {
+    /*border: #333 solid 1px;*/
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonI button {
+    height: 5vh;
+    width: 8vw;
+    border: none;
+    background-color:transparent;
+}
+.buttonI button:hover{
+    color: white ;
+}
+.bottom {
+    height: 90%;
+    border: #1c1b1b solid 1px;
+    display: flex;
+    flex-direction: row;
+
+}
+.item-T1{
+    border: #0b0b0b solid 1px;
+    height: 100%;
+    width: 40%;
+}
+.item-Main {
+    /* border: #0b0b0b solid 1px; */
+    height: 100%;
+    width: 30%;
+    overflow-y: scroll;
+    overflow: auto;
+}
+.item-Main::-webkit-scrollbar {
+    width: 2px;
+    background-color: #fff;
+}
+.item-Main::-webkit-scrollbar-thumb{
+    width: 1px;
+    background-color: #333;
+}
+
+
+.item1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #0b0b0b solid 1px;
+}
+
+.it_img {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    margin:0 auto;
+    position: relative;
+}
+/* img를 둘러싸고 있는 div에 위 코드를 넣고 img에는 */
+/* .img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+} */
+
+.img {
+   /* font-family: "Bungee", cursive;*/
+  /*font-size: 5rem;*/
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+}
+
+
+.info {
+    width: 30%;
+    height: 40%;
+    position: relative;
+    top: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info h5 {
+    padding: 0 10%;
+}
+
+.info h6 {
+    padding: 0 10%;
+}
+
+.info p {
+    font-size: 13px;
+    padding: 0 10%;
+    opacity: 0.7;
+}
+.link-word {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-word2 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: right;
+    
+}
+
+
+.link-word:hover {
+    color: darkblue;
+}
+
+.link-word2:hover {
+    color: darkblue;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.item-T2 {
+    border: #0b0b0b solid 1px;
+    height: 100%;
+    width: 40%;
+}
+/*-------------------------------------------------*/
+
+
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* border: #333 solid 1px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 2%;
+}
+
+.i1 {
+    /* border: #333 solid 1px;
+    height: 50%;
+    width: 80%;
+    display: flex; */
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 비율 */
+    position: relative;
+}
+
+
+/* .i3 {
+    border: #333 solid 1px;
+    height: 50%;
+    width: 80%;
+} */
+
+.i1 iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-container {
+    display: contents;
+}
+
+.youtube-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.gap {
+    height: 20px; 
+}
+
